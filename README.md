@@ -15,7 +15,6 @@ This repository provides document image processing and quality enhancement metho
 ### Examples and Uses:
 
 ### Image Binarization Demo
-#### Binarization algorithm demo
 ```` python
     filePath = 'img/ocr_image.jpg'
     img = cv2.imread(filePath)
@@ -58,7 +57,9 @@ As shown in above figure, we can try with different binarization algorithms with
     cv2.imshow("Image Without Table", res_img)
     cv2.waitKey(0)
 ```
+
 Original Image
+
 ![Alt text](img/table_img.png?raw=true "Table")
 
 Image without any line/Table
