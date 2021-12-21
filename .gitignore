@@ -1,0 +1,12 @@
+__ pycache__/
+.idea/
+venv/
+logs/
+bin/
+lib/
+*.pth
+*.pyc
+*.bag
+*.h5
+*.ckpt
+*pc_test.csv
